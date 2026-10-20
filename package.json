@@ -1,0 +1,17 @@
+{
+  "name": "devops",
+  "module": "index.ts",
+  "type": "commonjs",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.2.1",
+    "mongoose": "^9.11.1"
+  }
+}
